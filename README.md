@@ -18,9 +18,9 @@ Click on the provided link to launch the game. Enter a number between 1 and 20. 
 
 #### Screenshot
 
-![adamgmcfadden github io_guess-my-number_](https://user-images.githubusercontent.com/83710803/151245711-c8c54381-60df-4613-aa8d-6847ffbbf4e4.png)
+![Picture1](https://user-images.githubusercontent.com/83710803/151246381-2245d10f-ef37-45b7-a80a-552b52b3a8e9.png)
 
-![adamgmcfadden github io_guess-my-number_ (1)](https://user-images.githubusercontent.com/83710803/151245701-b5d3062c-89fd-43ab-81ce-1a2ecdbb2fe9.png)
+![Picture2](https://user-images.githubusercontent.com/83710803/151246383-d2338141-e87e-42ed-8a44-1c39f8aa793e.png)
 
 ## Credit
 
