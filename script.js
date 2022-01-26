@@ -1,9 +1,10 @@
 'use strict';
 
 // Define the secret number
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 // initial score
 let score = 20;
+let highscore = 0;
 
 // Event listener for the "Check!" button
 document.querySelector('.check').addEventListener('click', function () {
@@ -18,6 +19,11 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('body').style.backgroundColor = '#60b347';
 
     document.querySelector('.number').style.width = '30rem';
+
+    if (score > highscore) {
+      highscore = score;
+      document.querySelector('.highscore').textContent = highscore;
+    }
 
     // TODO refactor code later
     // When guess is too high
@@ -51,11 +57,14 @@ document.querySelector('.again').addEventListener('click', function () {
   // reset score
   score = 20;
   document.querySelector('.score').textContent = score;
+  // reassign a secret number
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
   // reset number variable
   document.querySelector('.number').textContent = '?';
-
   // reset the message
   document.querySelector('.message').textContent = 'Start guessing...';
+  // reset the input value
+  document.querySelector('.guess').value = '';
   // reset background color
   document.querySelector('body').style.backgroundColor = '#222';
   // reset number width
